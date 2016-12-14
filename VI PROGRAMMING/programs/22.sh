@@ -1,17 +1,9 @@
-divs=0
-echo "num : "
-isprimo=true
+echo "Ingrese un numero : "
 read num
-for ((i=1; i<=$num; i++)); do
-	if [ `expr $num % $i` -eq 0 ]; then
-		divs=`expr $divs + 1`
-	fi
+fact=1
+
+for((i = 1; i <= num; i++)); do
+	fact=`expr $fact + $fact \* $i`
+	#fact=$(($fact + $fact * i))
 done
-
-if [ $divs -gt 2 ]; then
-	echo "No Es primo"
-else
-	echo "es primo"
-fi
-
-
+echo $fact
