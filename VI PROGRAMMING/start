@@ -1,0 +1,5 @@
+clear
+echo "Hello $USER"
+echo "Today is \c"; date
+echo "Number of user login Jean"
+

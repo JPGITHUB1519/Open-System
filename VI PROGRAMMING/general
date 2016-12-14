@@ -1,0 +1,5 @@
+array1[0] = one
+array1[1] = 2
+
+echo ${array1[0]}
+

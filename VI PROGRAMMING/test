@@ -1,0 +1,11 @@
+var=10
+var2=20 
+if $var -eq $10
+then
+echo hola
+else
+echo adios
+fi
+
+
+
